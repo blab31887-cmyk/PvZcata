@@ -44,7 +44,7 @@
 #include "Widget/AchievementsScreen.h"
 
 constinit const PlantDefinition gPlantDefs[SeedType::NUM_SEED_TYPES] = {
-    { .mSeedType = SeedType::SEED_PEASHOOTER,        .mPlantImage = nullptr, .mReanimationType = ReanimationType::REANIM_PEASHOOTER,    .mPacketIndex = 0,  .mSeedCost = 100, .mRefreshTime = 750,    .mSubClass = PlantSubClass::SUBCLASS_SHOOTER, .mLaunchRate = 150,  .mPlantName = "PEASHOOTER" },
+    { .mSeedType = SeedType::SEED_PEASHOOTER,        .mPlantImage = nullptr, .mReanimationType = ReanimationType::REANIM_PEASHOOTER,    .mPacketIndex = 0,  .mSeedCost = 500, .mRefreshTime = 750,    .mSubClass = PlantSubClass::SUBCLASS_SHOOTER, .mLaunchRate = 150,  .mPlantName = "PEASHOOTER" },
     { .mSeedType = SeedType::SEED_SUNFLOWER,         .mPlantImage = nullptr, .mReanimationType = ReanimationType::REANIM_SUNFLOWER,     .mPacketIndex = 1,  .mSeedCost = 50,  .mRefreshTime = 750,    .mSubClass = PlantSubClass::SUBCLASS_NORMAL,  .mLaunchRate = 2500, .mPlantName = "SUNFLOWER" },
     { .mSeedType = SeedType::SEED_CHERRYBOMB,        .mPlantImage = nullptr, .mReanimationType = ReanimationType::REANIM_CHERRYBOMB,    .mPacketIndex = 3,  .mSeedCost = 150, .mRefreshTime = 5000,   .mSubClass = PlantSubClass::SUBCLASS_NORMAL,  .mLaunchRate = 0,    .mPlantName = "CHERRY_BOMB" },
     { .mSeedType = SeedType::SEED_WALLNUT,           .mPlantImage = nullptr, .mReanimationType = ReanimationType::REANIM_WALLNUT,       .mPacketIndex = 2,  .mSeedCost = 50,  .mRefreshTime = 3000,   .mSubClass = PlantSubClass::SUBCLASS_NORMAL,  .mLaunchRate = 0,    .mPlantName = "WALL_NUT" },
