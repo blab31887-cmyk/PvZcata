@@ -214,6 +214,15 @@ void TitleScreen::Draw(Graphics* g)
 	{
 		aReanim->Draw(g);
 	}
+  TodDrawString(
+    g,
+    "0.0.1",
+    mWidth - 8,
+    mHeight - 20,
+    Sexy::FONT_DWARVENTODCRAFT12,
+    Color(235, 225, 190),
+    DrawStringJustification::DS_ALIGN_RIGHT
+);
 }
 
 // GOTY @Patoke: 0x498A20
