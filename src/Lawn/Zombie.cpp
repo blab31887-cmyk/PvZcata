@@ -10729,7 +10729,7 @@ void Zombie::BossStompAttack()
 
     int aRowsCount = 0;
     int rowchoices = mBoard->StageHas6Rows() ? 5 : 4;
-    intptr_t aRowArray[rowchoices];
+    intptr_t aRowArray[5];
     for (int i = 0; i < rowchoices; i++)
     {
         if (BossCanStompRow(i))
