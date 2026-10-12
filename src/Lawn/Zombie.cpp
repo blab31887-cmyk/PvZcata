@@ -228,7 +228,7 @@ void Zombie::ZombieInitialize(int theRow, ZombieType theType, bool theVariant, Z
         ReanimShowPrefix("anim_cone", RENDER_GROUP_NORMAL);
         ReanimShowPrefix("anim_hair", RENDER_GROUP_HIDDEN);
         mHelmType = HelmType::HELMTYPE_TRAFFIC_CONE;
-        mHelmHealth = 370;
+        mHelmHealth = 450;
         break;
 
     case ZombieType::ZOMBIE_PAIL:
@@ -587,7 +587,7 @@ void Zombie::ZombieInitialize(int theRow, ZombieType theType, bool theVariant, Z
                 ReanimShowPrefix("anim_cone", RENDER_GROUP_NORMAL);
                 ReanimShowPrefix("anim_hair", RENDER_GROUP_HIDDEN);
                 mHelmType = HelmType::HELMTYPE_TRAFFIC_CONE;
-                mHelmHealth = 370;
+                mHelmHealth = 450;
             }
         }
 
@@ -709,7 +709,7 @@ void Zombie::ZombieInitialize(int theRow, ZombieType theType, bool theVariant, Z
             ReanimShowPrefix("anim_cone", RENDER_GROUP_NORMAL);
             ReanimShowPrefix("anim_hair", RENDER_GROUP_HIDDEN);
             mHelmType = HelmType::HELMTYPE_TRAFFIC_CONE;
-            mHelmHealth = 370;
+            mHelmHealth = 450;
         }
         if ((mBoard && mBoard->mPlantRow[mRow] == PlantRowType::PLANTROW_POOL && mFromWave != Zombie::ZOMBIE_WAVE_CUTSCENE))
         {
